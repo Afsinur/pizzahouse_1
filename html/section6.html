@@ -1,0 +1,128 @@
+<style>
+  .sec6Div {
+    width: 100%;
+    background-color: #242424;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec6Div > div {
+    width: 98%;
+    height: 147vh;
+    padding-right: 120px;
+
+    background-image: url(img/section6/bg.png);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .sec6Div > div > h1 {
+    color: #ffffee;
+    font-size: 2.6rem;
+
+    margin: 50px 0;
+  }
+
+  .sec6Div > div > div {
+    padding: 50px;
+    background-color: #ffba00;
+    color: #ffffee;
+    width: 50%;
+
+    font-size: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .sec6Div > div > div > h1:nth-child(1) {
+    margin: 0 0 20px 0;
+  }
+
+  .sec6Div > div > div > p:nth-child(2) {
+    text-align: left;
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+
+  .sec6Div > div > div > p:nth-child(3) > span {
+    font-weight: 700;
+  }
+
+  .sec6Div > div > a {
+    text-decoration: none;
+
+    background-color: #ffba00;
+
+    color: #ffffee;
+    font-size: 2.6rem;
+    font-weight: 500;
+
+    padding: 40px 300px 20px 30px;
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .sec6Div > div > div {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .sec6Div > div {
+      width: 100%;
+      padding-right: unset;
+    }
+
+    .sec6Div > div > h1 {
+      font-size: 1.6rem;
+      padding: 10px;
+
+      border: 2px solid #ffffee;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .sec6Div > div > div {
+      width: 100%;
+      padding: 5px;
+      font-size: 1.4rem;
+    }
+
+    .sec6Div > div > a {
+      font-size: 2rem;
+      padding: 10px 50px 5px 10px;
+    }
+
+    .sec6Div > div > h1 {
+      margin: 100px 0;
+    }
+  }
+</style>
+
+<div class="sec6Div">
+  <div>
+    <h1>MASTERCLASS</h1>
+
+    <div>
+      <h1>| THE RECIPE FOR THE MOST DELICIOUS PIZZA DOUGH |</h1>
+
+      <p>waiting for you!</p>
+
+      <p>
+        PRICE_<span>15$</span>
+        <br />
+        12:00-15:00
+      </p>
+    </div>
+
+    <a href="#">APPLY</a>
+  </div>
+</div>

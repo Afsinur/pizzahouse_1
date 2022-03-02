@@ -1,0 +1,145 @@
+<style>
+  .sec8Div {
+    width: 100%;
+    background-color: #242424;
+    color: #ffffee;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec8Div > div {
+    width: 60%;
+    padding: 100px 0 30px 60px;
+
+    background: linear-gradient(
+      90deg,
+      #feba00 0%,
+      #feba00 30%,
+      rgba(0, 212, 255, 0) 30%
+    );
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec8Div > div > h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+
+  .sec8Div > div > div {
+    width: 100%;
+    margin: 40px 0;
+
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 1px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .sec8Div > div > div > div:nth-child(1) {
+    padding-right: 50px;
+  }
+
+  .sec8Div > div > div > div:nth-child(2) {
+    padding-left: 50px;
+  }
+
+  .s8_ul_cont > ul {
+    margin: 10px 0 50px 0;
+
+    display: flex;
+    list-style: none;
+  }
+
+  .s8_ul_cont > ul > li > a {
+    padding: 8px 10px;
+  }
+
+  .s8_ul_cont > ul > li > a > img {
+    width: 50px;
+  }
+
+  .s8_ul_cont > h2 {
+    color: #feba00;
+  }
+
+  .sec8Div > div > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .sec8Div > div > div {
+      flex-direction: column;
+    }
+
+    .sec8Div > div > div > div:nth-child(2) {
+      padding-top: 50px;
+    }
+
+    .s8_ul_cont > h2 {
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .sec8Div > div {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .sec8Div > div > div > div:nth-child(1) {
+      padding-right: unset;
+    }
+
+    .sec8Div > div > div > div:nth-child(2) {
+      padding-left: unset;
+    }
+
+    .s8_ul_cont > h2 {
+      font-size: 1.2rem;
+    }
+
+    .s8_ul_cont > ul {
+      margin: unset;
+    }
+
+    .s8_ul_cont > ul > li > a {
+      padding: 5px;
+    }
+  }
+</style>
+
+<div class="sec8Div">
+  <div>
+    <h1>#pizzeria.</h1>
+
+    <div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed tempora
+        pariatur quas rem voluptates, veniam eius expedita, voluptate delectus
+        est, impedit numquam maxime placeat?
+      </div>
+
+      <div class="s8_ul_cont">
+        <p>| Find us here</p>
+        <ul></ul>
+
+        <p>| Ask us here</p>
+        <h2>www.#pizzeria.com</h2>
+      </div>
+    </div>
+
+    <p>Name Name</p>
+  </div>
+</div>

@@ -1,0 +1,103 @@
+<style>
+  .sec9Div {
+    width: 100%;
+    background-color: #242424;
+    color: #ffffee;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec9Div > div {
+    width: 100%;
+    padding: 50px 100px;
+
+    background-color: #483500;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sec9Div > div > div {
+    width: 25%;
+    padding: 0 50px;
+    margin: 10px 0;
+
+    font-size: 1.2rem;
+  }
+
+  div.sec9Div div.s9_d1 {
+    width: 50%;
+  }
+
+  .sec9Div > div > div > h2 {
+    margin-bottom: 30px;
+  }
+
+  .sec9Div > div > div > ul {
+    list-style: none;
+  }
+
+  .sec9Div > div > div > ul > li > a {
+    text-decoration: none;
+    color: #ffffee;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .sec9Div > div {
+      flex-wrap: wrap;
+    }
+
+    .sec9Div > div > div {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .sec9Div > div {
+      padding: 25px;
+    }
+
+    .sec9Div > div > div,
+    div.sec9Div div.s9_d1 {
+      width: 100%;
+    }
+
+    .sec9Div > div > div {
+      padding: 5px;
+    }
+  }
+</style>
+
+<div class="sec9Div">
+  <div>
+    <div class="s9_d1">
+      <h2>About</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ullam
+        quod nesciunt iure eius mollitia placeat.
+      </p>
+    </div>
+
+    <div class="s9_ul1">
+      <h2>Menu</h2>
+
+      <ul></ul>
+    </div>
+
+    <div class="s9_ul2">
+      <h2>Shef</h2>
+
+      <ul></ul>
+    </div>
+
+    <div class="s9_ul3">
+      <h2>Contact</h2>
+
+      <ul></ul>
+    </div>
+  </div>
+</div>
