@@ -1,19 +1,6 @@
-const s4_cld_3 = q_s(`.sec4Div>div:nth-child(3)`);
+const s4_cld_3_1 = q_s(`.sec4Div>div:nth-child(3)>div:nth-child(1)`);
+const s4_cld_3_2 = q_s(`.sec4Div>div:nth-child(3)>div:nth-child(2)`);
 const s4_cld_4 = q_s(`.sec4Div>div:nth-child(4)`);
-
-const s4_tmp1 = (h2_1, h2_2, h2_3) => {
-  return `
-    <div>
-        <div>
-            <h2>${h2_1}</h2>
-            <h2>${h2_2}</h2>
-        </div>
-        <div>
-            <h2>${h2_3}</h2>
-        </div>
-    </div>
-    `;
-};
 
 const s4_cld3_arr = [
   {
@@ -46,7 +33,18 @@ const s4_cld4_arr = [
 
 //init
 s4_cld3_arr.forEach(({ h2_1, h2_2, h2_3 }) => {
-  s4_cld_3.innerHTML += s4_tmp1(h2_1, h2_2, h2_3);
+  s4_cld_3_1.innerHTML += `
+  <div>
+    <h2>${h2_1}</h2>
+    <h2>${h2_2}</h2>
+  </div>
+  `;
+
+  s4_cld_3_2.innerHTML += `
+  <div>
+    <h2>${h2_3}</h2>
+  </div>
+  `;
 });
 
 s4_cld4_arr.forEach(({ p }) => {
